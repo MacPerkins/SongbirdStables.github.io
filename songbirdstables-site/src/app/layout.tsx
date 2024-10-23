@@ -1,33 +1,8 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import { Birthstone, Itim } from "next/font/google";
+// RootLayout.tsx
+import { Metadata } from "next";
 import Link from "next/link";
+import { birthstone, itim } from "./fonts/fonts";
 import "./globals.css";
-
-// Importing your custom fonts
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
-
-// Birthstone font from Google Fonts
-const birthstone = Birthstone({
-  weight: "400", // You can change the weight if needed
-  subsets: ["latin"],
-  variable: "--font-birthstone", // Use this as a CSS variable
-});
-
-const itim = Itim({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-itim", // CSS variable for Itim
-});
 
 export const metadata: Metadata = {
   title: "Horse Riding Lessons",
@@ -42,22 +17,34 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${birthstone.variable} ${itim.variable} antialiased`}
       >
         {/* Navigation Bar */}
-        <nav className="bg-gray-800 p-4">
+        <nav className="bg-blue-400 p-4">
           <div className="container mx-auto flex justify-between items-center">
-            <Link className={`${birthstone.className} text-white text-3xl font-bold`} href="/">
+            <Link
+              className={`${birthstone.className} text-white text-6xl font-bold`}
+              href="/"
+            >
               Songbird Stables
             </Link>
-            <div className={`${itim.className} space-x-4`}>
-              <Link className="text-gray-300 hover:text-white" href="/lessons">
+            <div className={`${itim.className} space-x-16`}>
+              <Link
+                className="text-white text-2xl px-4 py-2 border border-transparent hover:border-white hover:shadow-lg transition duration-300 ease-in-out"
+                href="/lessons"
+              >
                 Lessons
               </Link>
-              <Link className="text-gray-300 hover:text-white" href="/about">
+              <Link
+                className="text-white text-2xl px-4 py-2 border border-transparent hover:border-white hover:shadow-lg transition duration-300 ease-in-out"
+                href="/about"
+              >
                 About Us
               </Link>
-              <Link className="text-gray-300 hover:text-white" href="/contact">
+              <Link
+                className="text-white text-2xl px-4 py-2 border border-transparent hover:border-white hover:shadow-lg transition duration-300 ease-in-out"
+                href="/contact"
+              >
                 Contact Us
               </Link>
             </div>
