@@ -1,6 +1,12 @@
 import Image from "next/image";
 import { birthstone, itim } from "./fonts/fonts";
 import Footer from "./components/footer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Horse Riding Lessons",
+  description: "Professional horse riding lessons",
+};
 
 export default function Home() {
   return (
