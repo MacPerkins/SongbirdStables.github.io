@@ -21,11 +21,11 @@ body {
   font-family: 'Itim', 'Birthstone', sans-serif; /* Fallback to sans-serif */
 }
 
-h1, h2, a {
+h1, h2, a, h3 {
   font-family: var(--font-birthstone);
 }
 
-p {
+p, ul {
   font-family: var(--font-itim);
 }
 
