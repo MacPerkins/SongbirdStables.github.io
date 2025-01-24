@@ -40,7 +40,7 @@ export default function AboutUsPage() {
         <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm text-center">
           <h2 className={`${birthstone.variable} text-2xl font-bold mb-4`}>Why Choose Us</h2>
           <p className={`${itim.variable}`}>
-          At Songbird Stables, we are all a family. As a small but growing business, class sizes are smaller, granting me more time to get to know each individual student, flexibility for time and makeup lessons. Students also are granted more time to be around the animals and help around the arena.
+          At Songbird Stables, we are all a family. As a small but growing business, class sizes are smaller, granting more time for me to get to know each individual student and adds flexibility for your schedule. Students also are granted more time to be around the animals and help around the arena.
           </p>
         </div>
       </section>

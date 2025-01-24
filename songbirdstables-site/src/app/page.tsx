@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { birthstone, itim } from "./fonts/fonts";
 import Footer from "./components/footer";
-import { Metadata } from "next";
+// import { Metadata } from "next";
 import Zoe from "/src/public/images/zoe.jpg";
 import Caspian from "/src/public/images/caspian.jpg";
 import Dawn from "/src/public/images/dawn.jpg";
@@ -18,10 +18,10 @@ import Hero from "/src/public/images/hero-image.jpg";
 export default function Home() {
   // State to manage modal visibility and image details
   const [isModalOpen, setModalOpen] = useState(false);
-  const [modalImage, setModalImage] = useState<string | null>(null);
+  const [modalImage, setModalImage] = useState<StaticImageData | null>(null);
 
   // Function to open modal and set image
-  const openModal = (image: string) => {
+  const openModal = (image: StaticImageData) => {
     setModalImage(image);
     setModalOpen(true);
   };
