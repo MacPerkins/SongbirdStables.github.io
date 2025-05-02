@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/SongbirdStables.github.io/songbirdstables-site",
-  assetPrefix: "/SongbirdStables.github.io/songbirdstables-site",
+  // Remove basePath and assetPrefix for Vercel
 };
 
 export default nextConfig;
