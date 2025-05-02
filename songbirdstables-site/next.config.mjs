@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/SongbirdStables.github.io/songbirdstables-site",
-  assetPrefix: "/SongbirdStables.github.io/songbirdstables-site",
+  basePath: "/SongbirdStables.github.io",
+  assetPrefix: "/SongbirdStables.github.io",
 };
 
 export default nextConfig;
