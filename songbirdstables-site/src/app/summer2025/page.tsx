@@ -30,7 +30,7 @@ export default function Summer2025Page() {
             <section className="flex flex-col items-center justify-center p-6 bg-white shadow-md mb-6 rounded-lg">
               <h2 className="text-4xl font-semibold mb-4">Riding Waiver</h2>
               <a
-                href="/riding-waiver.pdf"
+                href="/forms/riding-waiver.pdf"
                 download
                 className="text-blue-500 text-xl underline hover:text-blue-700 transition"
                 
