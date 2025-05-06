@@ -47,12 +47,12 @@ export default function Home() {
           <p className={`${itim.variable} mb-6`}>
             Professional horse riding lessons for all ages and skill levels.
           </p>
-          <a
+            <a
             href="/lessons"
-            className="bg-blue-500 text-2xl text-white py-3 px-7 rounded-lg hover:bg-blue-600 transition"
-          >
+            className="bg-blue-500 text-2xl text-white py-3 px-7 rounded-lg hover:bg-blue-600 transition transform hover:scale-105"
+            >
             Lesson Pricing
-          </a>
+            </a>
         </div>
       </section>
 
@@ -79,7 +79,7 @@ export default function Home() {
               alt={horse.alt}
               width={200}
               height={200}
-              className="object-cover rounded-xl border border-transparent hover:border-black hover:shadow-xl mb-4 sm:mb-0 sm:mr-4"
+              className="object-cover rounded-xl border border-transparent hover:border-blue-500 hover:shadow-xl hover:scale-105 transition-transform duration-300 mb-4 sm:mb-0 sm:mr-4"
             />
             <div className="flex flex-col">
               <h2 className={`${birthstone.variable} text-4xl font-semibold mb-2`}>
