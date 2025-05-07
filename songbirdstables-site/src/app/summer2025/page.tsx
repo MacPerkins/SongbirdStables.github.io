@@ -30,10 +30,10 @@ export default function Summer2025Page() {
             <section className="flex flex-col items-center justify-center p-6 bg-white shadow-md mb-6 rounded-lg">
               <h2 className="text-4xl font-semibold mb-4">Riding Waiver</h2>
               <a
-                href="/forms/riding-waiver.pdf"
-                download
+                href="/forms/ridingwaiver.pdf"
+                target="_blank"
+                download="ridingwaiver.pdf"
                 className="text-blue-500 text-xl underline hover:text-blue-700 transition"
-                
               >
                 Download Riding Waiver
               </a>
@@ -43,7 +43,7 @@ export default function Summer2025Page() {
             <section className="flex flex-col items-center justify-center p-6 bg-white shadow-md rounded-lg">
               <h2 className="text-4xl font-semibold mb-4">Summer 2025 Schedule</h2>
               <a
-                href="/path/to/summer-2025-schedule.pdf"
+                href="/forms/summer-2025-schedule.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 text-xl underline hover:text-blue-700 transition"
