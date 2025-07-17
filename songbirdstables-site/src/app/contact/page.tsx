@@ -34,15 +34,15 @@ export default function ContactPage() {
                         <div className="text-lg">
                             <p className="mb-2 text-xl font-semibold">
                                 Phone: 
-                                <a href="tel:1234567890" className="font-normal text-blue-500 hover:underline"> 123-456-7890</a>
+                                <a href="tel:1234567890" className="font-normal text-blue-500 hover:underline"> 801-855-6542</a>
                             </p>
                             <p className="mb-2 text-xl font-semibold">
                                 Email: 
-                                <a href="mailto:info@songbirdstables.com" className="font-normal text-blue-500 hover:underline"> info@songbirdstables.com</a>
+                                <a href="mailto:info@songbirdstables.com" className="font-normal text-blue-500 hover:underline"> songbird.stables.equestrian@gmail.com</a>
                             </p>
                             <p className="text-xl font-semibold">
                                 Follow us on Instagram: 
-                                <a href="https://www.instagram.com/your_instagram_handle" target="_blank" rel="noopener noreferrer" className="font-normal text-blue-500 hover:underline"> @your_instagram_handle</a>
+                                <a href="https://www.instagram.com/your_instagram_handle" target="_blank" rel="noopener noreferrer" className="font-normal text-blue-500 hover:underline"> @songbird.stables</a>
                             </p>
                         </div>
                     </div>
